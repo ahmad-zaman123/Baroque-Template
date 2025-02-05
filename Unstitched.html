@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAROQUE-3</title>
+
+    <style>
+        #header {
+            width: 100%;
+            height: 35px;
+            background-color: black;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        #header2 {
+            width: 100%;
+            height: 60px;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            border-bottom: 1px solid lightgrey;
+        }
+
+        #p4 {
+            font-size: x-large;
+        }
+
+        #hd {
+            color: whitesmoke;
+            font-size: 15px;
+        }
+
+        #front {
+            width: 100%;
+            height: 200px;
+            border-bottom: 1px solid lightgrey;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #p1 {
+            font-size: xx-large;
+            text-align: center;
+        }
+
+        #products234{
+            width: 100%;
+            height: 50px;
+            background-color: white;
+            border-bottom: 1px solid lightgrey;
+            border-top: 1px solid lightgrey;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            position: sticky;
+            top: 60px;
+        }
+
+        #products{
+            width: 85%;
+            height: 50px;
+            border-right: 1px solid lightgrey;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #options{
+            color: grey;
+            border: none;
+        }
+
+        #mainbox{
+            width: 100%;
+            height: 2250px;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: row;
+        }
+
+        #box1{
+            width: 25%;
+            height: 530px;
+            display: flex;
+            flex-direction: row-reverse;
+            position: sticky;
+            left:0px;
+            top:115px;
+        }
+
+        #bar{
+            width: 85%;
+            height: 530px;
+            display: flex;
+            flex-direction: column;
+            /* position: fixed;
+            left:10;
+            top: 20; */
+        }
+
+        .baritems{
+            height: 74px;
+            width: 100% ;
+            display: flex;
+            justify-content: left;
+            border-bottom: 1px solid lightgrey;
+        }
+
+        #baroptions{
+            border: none;
+            font-size: large;
+            font-family:'Times New Roman', Times, serif;
+            color: darkslategrey;
+        }
+
+        #box2{
+            width:75%;
+            height: 2250px;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: column;
+        }
+
+        .items{
+            width:100%;
+            height: 750px;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        .subitems{
+            width:430px;
+            height: 710px;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #p2{
+            align-items: center;
+            line-height:0;
+            font-size: 15px;
+        }
+
+        #footer{
+            width: 100% ;
+            height: 300px;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .foot{
+            width: 20%;
+            height: 300px;
+            /* border: 1px solid black; */
+        }
+
+        #text3{
+            text-align:left;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: large;
+            color: grey;
+        }
+
+        #tag{
+            border: none;
+            color: grey;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <div id="header">
+        <p id="hd">FOR INTERNATIONAL WEBSITE VISIT<a id="hd" href="#">WWW.BAROQUE.COM.PK</a></p>
+    </div>
+
+    <div id="header2">
+        <p id="p4">BAROQUE</p>
+    </div>
+
+    <div id="front">
+        <p id="p1">UNSTITCHED</p>
+    </div>
+
+    <div id="products234">
+        <div id="products">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;234 PRODUCTS</div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select id="options"><option>SORT BY</option><option value="BS">BEST</option></select></div>
+    </div>
+
+    <br> <br> <br>
+
+    <div id="mainbox">
+        <div id="box1">
+            <div id="bar">
+            <div class="baritems"><select id="baroptions"><option>AVAILABILITY</option><option>ABC DEF GHI JKL MNO PQR S</option></select></div>
+            <div class="baritems"><select id="baroptions"><option>PRICE</option><option>ABC DEF GHI JKL MNO PQR S</option></select></div>
+            <div class="baritems"><select id="baroptions"><option>PRODUCT TYPE</option><option>ABC DEF GHI JKL MNO PQR S</option></select></div>
+            <div class="baritems"><select id="baroptions"><option>TYPE</option><option>ABC DEF GHI JKL MNO PQR S</option></select></div>
+            <div class="baritems"><select id="baroptions"><option>FABRIC</option><option>ABC DEF GHI JKL MNO PQR S</option></select></div>
+            <div class="baritems"><select id="baroptions"><option>SIZE</option><option>ABC DEF GHI JKL MNO PQR S</option></select></div>
+            <div class="baritems"><select id="baroptions"><option>PIECES</option><option>ABC DEF GHI JKL MNO PQR S</option></select></div>
+            
+            </div>
+        </div>
+        <div id="box2">
+
+            <div class="items">
+                <div class="subitems">
+                    <img width="430px" height="600px" src="https://baroque.pk/cdn/shop/files/184_0003bf02-2a00-4273-922b-71d6f9be0df4.jpg?v=1727507296&width=500">
+                    <br>
+                    <p id="p2">EMBROIDERED VISCOSE UF-719</p>
+                    <p id="p2"><b>PKR 6,990.00</b></p>
+                    <p id="p2">UNSTITCHED | STITCHED</p>
+                </div>
+                <div class="subitems">
+                    <img width="430px" height="600px" src="https://baroque.pk/cdn/shop/files/127_96520a10-15ec-43c3-961f-39375a85acbc.jpg?v=1727506686&width=500">
+                    <br>
+                    <p id="p2">EMBROIDERED VISCOSE UF-739</p>
+                    <p id="p2"><b>PKR 7,990.00</b></p>
+                    <p id="p2">UNSTITCHED | STITCHED</p>
+                </div>
+            </div>
+            <div class="items">
+                <div class="subitems">
+                    <img width="430px" height="600px" src="https://baroque.pk/cdn/shop/files/168_df31b961-9de6-4248-a662-2f1aea943e6d.jpg?v=1727506973&width=500">
+                    <br>
+                    <p id="p2">EMBROIDERED VISCOSE UF-749</p>
+                    <p id="p2"><b>PKR 9,990.00</b></p>
+                    <p id="p2">UNSTITCHED | STITCHED</p>
+                </div>
+                <div class="subitems">
+                    <img width="430px" height="600px" src="https://baroque.pk/cdn/shop/files/128_8ebe26df-73a5-43d5-a3a4-9ce56fa9baf6.jpg?v=1726304454&width=500">
+                    <br>
+                    <p id="p2">EMBROIDERED VISCOSE UF-725</p>
+                    <p id="p2"><b>PKR 6,550.00</b></p>
+                    <p id="p2">UNSTITCHED | STITCHED</p>
+                </div>
+            </div>
+            <div class="items">
+                <div class="subitems">
+                    <img width="430px" height="600px" src="https://baroque.pk/cdn/shop/files/149_ba52ac15-4df4-478c-bad3-42989b030089.jpg?v=1727507079&width=500">
+                    <br>
+                    <p id="p2">EMBROIDERED VISCOSE UF-730</p>
+                    <p id="p2"><b>PKR 6,700.00</b></p>
+                    <p id="p2">UNSTITCHED | STITCHED</p>
+                </div>
+                <div class="subitems">
+                    <img width="430px" height="600px" src="https://baroque.pk/cdn/shop/files/98_e2c793fc-dad6-4596-a99f-59d5b87e17dd.jpg?v=1727506860&width=500">
+                    <br>
+                    <p id="p2">EMBROIDERED VISCOSE UF-765</p>
+                    <p id="p2"><b>PKR 7,999.00</b></p>
+                    <p id="p2">UNSTITCHED | STITCHED</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <br> <br> <br> <br> <br> <hr color="lightgrey"> <br> <br> <br>  <br> <br>
+
+    <div id="footer">
+        <div class="foot"><b><p>ABOUT</p></b><p id="text3">who We Are <br><br> Our Responsibility <br><br> Service We Provide <br><br> Careers <br><br> Legal</p></div>
+        <div class="foot"><b><p>CUSTOMER SERVICES</p></b><p id="text3">Contact us <br><br> Dispatch Timeline <br><br>Email: ibfo@baroque.pk <br><br> Call : +92 111 222 333 <br><br> Whatsapp : +92 111 222 333</p></div>
+        <div class="foot"><b><p>POLICIES</p></b><p id="text3">Privacy Policy <br><br>Refund Policy <br><br> Shipping policy <br><br>Terms of Service<br><br> Exchange Information</p></div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select id="tag"><option>PAKISTAN</option><option>BNGLDESH</option><option>INDIA</option></select>
+
+</body>
+
+</html>

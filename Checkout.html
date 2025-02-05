@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAROQUE-5</title>
+
+    <style>
+
+        #bg{
+            width: 100%;
+            height: 630px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        #mainbox{
+            width: 450px;
+            height: 630px;
+            border: 1px solid black;
+        }
+
+        .topbox{
+            width: 450px;
+            height: 50px;
+            border-bottom: 1px solid lightgrey;
+            background-color: black;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+        }
+
+        #p1{
+            font-size: large;
+            color: white;
+            background-color: black;
+            text-align: center;
+        }
+
+        .midbox{
+            width: 450px;
+            height: 460px;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        #item2{
+            width: 360px;
+            height: 190px;
+            /* border: 1px solid black;   */
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        #item21{
+            width: 35%;
+            height: 190px;
+            /* border: 1px solid black;    */
+        }
+
+        #item22{ 
+            width: 55%;
+            height: 190px;
+            /* border: 1px solid black;  */
+        }
+
+        #p3{
+            font-size: small;
+        }
+
+        #subbox{
+            height: 32px;
+            width: 200px;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: row;
+        }
+
+        #subbox1{
+            height: 32px;
+            width: 100px;
+            border: 1px solid lightgrey;
+            display: flex;
+            flex-direction: row;
+        }
+
+        #subbox2{
+            height: 32px;
+            width: 100px;
+            border: 1px solid lightgrey;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+        }
+
+        #nobox{
+            height: 32px;
+            width: 33px;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        a{
+            color: black;
+        }
+
+
+        #item3{
+            width: 360px;
+            height: 190px;
+            /* border: 1px solid black;   */
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .bottombox{
+            width: 450px;
+            height: 70px;
+            border-top: 1px solid black;
+            background-color: white;
+            color: grey;
+            position: sticky;
+            bottom: 0;
+        }
+
+        #CB{
+            width: 380px ;
+            height:45px ;
+            background-color: black;
+            color: white;
+            font-size: medium;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div id="bg">
+        <div id="mainbox">
+
+            <div class="topbox"><p id="p1">MY BAG</p></div>
+
+            <div class="midbox">
+
+                <div id="item2">
+                    <div id="item21"><img width="100%" height="190px" src="https://baroque.pk/cdn/shop/files/185_ed62cf7e-aecc-489f-a83e-c843a4dcb76b.jpg?v=1727507297&width=120"></div>
+                    <div id="item22">
+                        <p id="p3">UNSTITCHED</p>
+                        <p>EMBROIDERED VISCOSE</p>
+                        <p>UF-719</p>
+                        <p><b>PKR 6,990.00</b></p>
+                        
+                        <div id="subbox">
+                        <div id="subbox1">
+                            <div id="nobox"><p id="size">-</p></div>
+                            <div id="nobox"><p id="size">1</p></div>
+                            <div id="nobox"><p id="size">+</p></div>
+
+                        </div>
+
+                        <div id="subbox2"><a href="">Remove</a></div>
+
+                        </div>
+                        
+                    </div>
+
+                </div>
+                <div id="item3">
+                    <div id="item21"><img width="100%" height="190px" src="https://baroque.pk/cdn/shop/files/48_2bda2b36-2470-4596-9227-9d9df338aa03.jpg?v=1727772253&width=120"></div>
+                    <div id="item22">
+                        <p id="p3">UNSTITCHED</p>
+                        <p>EMBROIDERED VISCOSE</p>
+                        <p>UF-719</p>
+                        <p><b>PKR 6,990.00</b></p>
+                        
+                        <div id="subbox">
+                        <div id="subbox1">
+                            <div id="nobox"><p id="size">-</p></div>
+                            <div id="nobox"><p id="size">1</p></div>
+                            <div id="nobox"><p id="size">+</p></div>
+
+                        </div>
+
+                        <div id="subbox2"><a href="">Remove</a></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottombox">
+                <p id="p2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Taxes and shipping calculated at checkout</p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="CB" type="button" value="CHECKOUT  .  PKR 10,999.000">
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

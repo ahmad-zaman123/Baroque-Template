@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAROQUE-4</title>
+
+    <style>
+
+#header{
+            width: 100%;
+            height:35px ;
+            background-color: black;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        #header2{
+            width: 100%;
+            height: 60px;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            border-bottom: 1px solid lightgrey;
+
+        }
+
+        #p1{
+            font-size: x-large;
+            text-align: center;
+        }
+
+        #hd{
+            color: whitesmoke;
+            font-size: 15px;
+        }
+
+        #mainbox{
+            height:3450px;
+            width: 100%;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: row;
+        }
+
+        #left{
+            height:1200px;
+            width: 10%;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: sticky;
+            left:0px;
+            top:60px;
+        }
+
+        .leftbox{
+            height:100px;
+            width: 60px;
+            /* border: 1px solid black; */
+        }
+
+        #mid{
+            height:100%;
+            width: 53%;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .midbox{
+            height:1100px ;
+            width: 90%;
+            /* border: 1px solid black; */
+        }
+
+        #right{
+            height:1200px;
+            width: 37%;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            align-items: center;
+            position: sticky;
+            left:0px;
+            top:50px;
+        }
+
+        #rightbox1{
+            height:160px;
+            width: 80%;
+            /* border: 1px solid black; */
+            border-bottom: 1px solid lightgrey;
+        }
+
+        #p2{
+            color: gray;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        #rightbox2{
+            height:300px;
+            width: 80%;
+            /* border: 1px solid black; */
+            border-bottom: 1px solid lightgrey;
+        }
+
+        #subbox2{
+            height: 40px;
+            width: 100%;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: row;
+        }
+
+        #sizebox{
+            height: 40px;
+            width: 40px;
+            border: 1px solid lightgrey;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #size{
+            color: grey;
+        }
+
+        #subbox3{
+            height: 40px;
+            width: 120px;
+            border: 1px solid lightgrey;
+            display: flex;
+            flex-direction: row;
+        }
+
+        #nobox{
+            height: 40px;
+            width: 40px;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #cart{
+            background-color: black;
+            height: 40px;
+            width: 100%;
+            border: none;
+            color: whitesmoke;
+            text-align: center;
+            font-size: medium;
+        }
+
+
+        #sidebar{
+            width: 80%;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            /* border: 1px solid black; */
+        }
+
+        .baritems{
+            height: 74px;
+            width: 100% ;
+            display: flex;
+            justify-content: left;
+            border-bottom: 1px solid lightgrey;
+        }
+
+        #baroptions{
+            border: none;
+            font-size: large;
+            font-family:'Times New Roman', Times, serif;
+            color: darkslategrey;
+        }
+
+        #related{
+            text-align: center;
+            font-size: xx-large;
+        }
+
+        #lowbox{
+            width: 100%;
+            height: 500px;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        .lb{
+            width: 21%;
+            height: 500px;
+            /* border: 1px solid black; */
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #pp{
+            text-align: center;
+            line-height:10px;
+            font-size: 15px;
+            color: darkslategrey;
+        }
+
+        #footer{
+            width: 100% ;
+            height: 300px;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .foot{
+            width: 20%;
+            height: 300px;
+            /* border: 1px solid black; */
+        }
+
+        #text3{
+            text-align:left;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: large;
+            color: grey;
+        }
+
+        #tag{
+            border: none;
+            color: grey;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="header">
+        <p id="hd">CLICK HERE FOR : <a id="hd" href="#">DISPATCHTIMELINE</a></p>
+    </div>
+    
+    <div id="header2">
+        <p id="p1">BAROQUE</p>
+    </div>
+    <br> <br> <br>
+
+    <div id="mainbox">
+
+        <div id="left"> 
+            <div class="leftbox"><img height="100px" width="60px" src="https://baroque.pk/cdn/shop/files/63_a3f2157f-b32a-4702-8f1a-158ff0b1321e.jpg?v=1726904748&width=56"></div><br>
+            <div class="leftbox"><img height="100px" width="60px" src="https://baroque.pk/cdn/shop/files/64_26758a98-d266-4122-8692-c230135ba238.jpg?v=1726904748&width=56"></div><br>
+            <div class="leftbox"><img height="100px" width="60px" src="https://baroque.pk/cdn/shop/files/65_de33e107-1da5-495e-add5-e5ae7d881d7a.jpg?v=1726904748&width=56"></div><br>
+            <div class="leftbox"><img height="100px" width="60px" src="https://baroque.pk/cdn/shop/files/66_292060fa-8571-41c6-916d-2230610eb0fa.jpg?v=1726904748&width=56"></div><br>
+            <div class="leftbox"><img height="100px" width="60px" src="https://baroque.pk/cdn/shop/files/67_7fbc2b21-1e9b-4df2-800a-4308955b4c68.jpg?v=1726904748&width=56"></div><br>
+            <div class="leftbox"><img height="100px" width="60px" src="https://baroque.pk/cdn/shop/files/60_fdd25847-2f44-4578-adc7-331da368a969.jpg?v=1726904748&width=56"></div><br>
+            <div class="leftbox"><img height="100px" width="60px" src="https://baroque.pk/cdn/shop/files/62_50c10b0f-9655-47bd-9d08-e450dbc3aab5.jpg?v=1726904748&width=56"></div><br>
+            <div class="leftbox"><img height="100px" width="60px" src="https://baroque.pk/cdn/shop/files/61_bc40103a-5c1c-45bb-b4ae-f6d5c535b7ca.jpg?v=1726904748&width=56"></div><br>
+            <div class="leftbox"><img height="100px" width="60px" src="https://baroque.pk/cdn/shop/files/59_c993323e-78f8-480a-8534-5551bb3367c8.jpg?v=1726904748&width=56"></div><br>
+            <div class="leftbox"><img height="100px" width="60px" src="https://baroque.pk/cdn/shop/files/62_50c10b0f-9655-47bd-9d08-e450dbc3aab5.jpg?v=1726904748&width=56"></div><br>
+            
+        </div>
+
+        <div id="mid">
+            <div class="midbox"><img width="100%" height="1100px" src="https://baroque.pk/cdn/shop/files/63_a3f2157f-b32a-4702-8f1a-158ff0b1321e.jpg?v=1726904748&width=800"></div><br><br>
+            <div class="midbox"><img width="100%" height="1100px" src="https://baroque.pk/cdn/shop/files/64_26758a98-d266-4122-8692-c230135ba238.jpg?v=1726904748&width=800"></div><br><br>
+            <div class="midbox"><img width="100%" height="1100px" src="https://baroque.pk/cdn/shop/files/65_de33e107-1da5-495e-add5-e5ae7d881d7a.jpg?v=1726904748&width=800"></div>
+           
+        </div>
+        
+        <div id="right">
+
+            <div id="rightbox1">
+                <p id="p2">EMBROIDERED VISCOSE UF-739</p>
+                <p><b>PKR 7,990.00</b></p>
+                <p id="p2">SKU: BQU-PR-995-01</p>
+                <p id="p2">3 PIECE</p>
+            </div>
+
+            <div id="rightbox2">
+
+                <p id="p2">SIZE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Size Chart</p>     
+                
+                <div id="subbox2">
+                    <div id="sizebox"><p id="size">XS</p></div>&nbsp;&nbsp;&nbsp;
+                    <div id="sizebox"><p id="size">S</p></div>&nbsp;&nbsp;&nbsp;
+                    <div id="sizebox"><p id="size">M</p></div>&nbsp;&nbsp;&nbsp;
+                    <div id="sizebox"><p id="size">L</p></div>&nbsp;&nbsp;&nbsp;
+                </div>
+                        <br><br>
+                <div id="subbox3">
+                    <div id="nobox"><p id="size">-</p></div>
+                    <div id="nobox"><p id="size">1</p></div>
+                    <div id="nobox"><p id="size">+</p></div>
+                </div>
+                <br><br>
+
+                <input id="cart" type="text" value="ADD TO CART">
+
+            </div>
+
+            
+            <div id="sidebar">
+                    <div class="baritems"><select id="baroptions"><option>DESCRIPTION</option><option>ABC DEF GHI JKL MNO PQR STUV WXYZ A</option></select></div>
+                    <div class="baritems"><select id="baroptions"><option>PRODUCT DETAILS</option><option>ABC DEF GHI JKL MNO PQR STUV WXYZ A</option></select></div>
+                    <div class="baritems"><select id="baroptions"><option>DELIVERY</option><option>ABC DEF GHI JKL MNO PQR STUV WXYZ A</option></select></div>
+                    <div class="baritems"><select id="baroptions"><option>RETURNS & EXCHANGE</option><option>ABC DEF GHI JKL MNO PQR STUV WXYZ A</option></select></div>
+                    <div class="baritems"><select id="baroptions"><option>CARE INSTRUCTIONS</option><option>ABC DEF GHI JKL MNO PQR STUV WXYZ A</option></select></div>
+            </div>
+        </div>
+
+    </div>
+
+    <hr color="lightgrey">
+
+    <br> <br> <br> <br>
+
+    <p id="related">RELATED PRODUCTS</p>
+
+    <br> <br>
+
+    <div id="lowbox">
+        <div class="lb">
+            <img height="390px" width="100%" src="https://baroque.pk/cdn/shop/files/55_10736858-aa30-4f70-b1e1-c499b9379b08.jpg?v=1726904703&width=500">
+            <p id="pp">EMBROIDERED VISCOSE UF-719</p>
+            <p id="pp"><b>PKR 6,990.00</b></p>
+            <p id="pp">UNSTITCHED | STITCHED</p>
+        </div>
+
+        <div class="lb">
+            <img height="390px" width="100%" src="https://baroque.pk/cdn/shop/files/18_6378c8d4-df33-4afb-9993-f11d7c8f987a.jpg?v=1727522115&width=300">
+            <p id="pp">EMBROIDERED VISCOSE UF-719</p>
+            <p id="pp"><b>PKR 6,990.00</b></p>
+            <p id="pp">UNSTITCHED | STITCHED</p>
+        </div>
+
+        <div class="lb">
+            <img height="390px" width="100%" src="https://baroque.pk/cdn/shop/files/13_933eb47d-53a4-4d6f-8718-3af70211b7ea.jpg?v=1727522039&width=300">
+            <p id="pp">EMBROIDERED VISCOSE UF-719</p>
+            <p id="pp"><b>PKR 6,990.00</b></p>
+            <p id="pp">UNSTITCHED | STITCHED</p>
+        </div>
+
+        <div class="lb">
+            <img height="390px" width="100%" src="https://baroque.pk/cdn/shop/files/105_990f42cc-7931-4bfe-acf3-3e4ccec4d26c.jpg?v=1724068862&width=300">
+            <p id="pp">EMBROIDERED VISCOSE UF-719</p>
+            <p id="pp"><b>PKR 6,990.00</b></p>
+            <p id="pp">UNSTITCHED | STITCHED</p>
+        </div>
+    </div>
+
+    <br> <br> <br> <br>
+
+    <hr color="lightgrey">
+
+    <br> <br> <br> <br>
+
+    <div id="footer">
+        <div class="foot"><b><p>ABOUT</p></b><p id="text3">who We Are <br><br> Our Responsibility <br><br> Service We Provide <br><br> Careers <br><br> Legal</p></div>
+        <div class="foot"><b><p>CUSTOMER SERVICES</p></b><p id="text3">Contact us <br><br> Dispatch Timeline <br><br>Email: ibfo@baroque.pk <br><br> Call : +92 111 222 333 <br><br> Whatsapp : +92 111 222 333</p></div>
+        <div class="foot"><b><p>POLICIES</p></b><p id="text3">Privacy Policy <br><br>Refund Policy <br><br> Shipping policy <br><br>Terms of Service<br><br> Exchange Information</p></div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select id="tag"><option>PAKISTAN</option><option>BNGLDESH</option><option>INDIA</option></select>
+
+
+    
+</body>
+</html>
